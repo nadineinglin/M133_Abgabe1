@@ -10,8 +10,26 @@
         <h1>Benutzerverwaltung</h1>
         <br>
         <form>
-            <input id="Vorname" type="text" name="Vorname" placeholder="Vorname">
-            <input id="Nachname"type="text" name="Nachname" placeholder="Nachname">
+            <input id="Vorname" type="text" name="Vorname" placeholder="Vorname" required>
+            <input id="Nachname"type="text" name="Nachname" placeholder="Nachname" required>
+            <br>
+            <input id="Adresse" type="text" name="Adresse"  placeholder="Adresse" required>    
+            <input id="HausNr"  type="text" name="HausNr"   placeholder="Nr. (opt.)" >
+            <br>
+            <input id="PLZ" type="text" name="PLZ"  placeholder="PLZ" required>
+            <input id="Ort" list="ort" name="Ort"  placeholder="Ort"  required>
+            <datalist id="ort">
+                <option value="Altdorf"></option>
+                <option value="Schattdorf"></option>
+                <option value="Erstfeld"></option>
+            </datalist>
+            <br>
+            <input id="Alter" type="number" name="Alter" placeholder="Alter (opt.)" min="1">
+            <input id="mail"  type="email"  name="Email" placeholder="Email-Adresse" required >
+            <br>
+            <br>
+            <button id="delete" type="reset">verwerfen</button>
+            <button id="submit" type="submit">senden</button> 
         </form>
     </body>
-</html>
+</html> 

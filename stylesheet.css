@@ -1,8 +1,28 @@
-body{
-    margin: 0 !important;
-    padding:0 !important;
-}
+
 h1{
     font-style:bold !important;
     color: blue !important;
 }
+#Vorname{
+    width: 48%;
+}
+
+#Nachname{
+    width: 48%;
+    
+}
+
+#Adresse{width: 68%}
+
+#HausNr{width: 28%;}
+
+#PLZ{width: 28%;}
+
+#Ort{width: 68%;}
+
+#Alter{width: 28%;}
+
+#mail{width: 68%;}
+
+#submit{float:right;}
+ #delete{float: right;}
