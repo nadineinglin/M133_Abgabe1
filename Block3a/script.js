@@ -17,13 +17,8 @@ document.write(x);
 document.write("<br>");
 document.write("<h1>Aufgabe 1</h1>")
 
-for (var i =1; i<20;i++){
-    
-    var x ="hallo";
-    document.write("<br>");
-    var result = x.fontsize(i);
-    document.write(result);
-    
+//Ziel ist  es eine in aufeinander Folge von Buchstaben oder Sätze so datzustellen,dass die sSChrift via Fonstsize immer grösser wird
 
-}
+
+
 
