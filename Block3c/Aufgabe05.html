@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 05</title>
+</head>
+<body>
+
+    <input type="text" id="eingabe">
+    <button type="submit" id="sub">submit</button>
+    <div id="ausgabe"></div>
+
+    <script>
+    document.addEventListener("click",function(){
+    document.getElementById("ausgabe").innerHTML=aus;  
+});
+    
+
+var aus;
+   
+    
+    var farben = ['rot','gelb','schwarz','grün'];
+    var anzahl= farben.length;
+   
+    for (i=0;i<anzahl;){
+            aus += "<ul>";
+            aus += "<li>" + farben[i] + "</li>";  
+            aus += "</ul>";
+            i++;
+
+    }
+
+ 
+    
+
+    </script>
+    
+</body>
+</html>
